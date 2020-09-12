@@ -1,0 +1,63 @@
+name: skripsi
+description: Empon-Empon Classification with TensorFlow lite.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  camera: ^0.5.6+3
+  tflite: ^1.0.4
+  path_provider: ^1.4.2
+  audioplayers: ^0.13.2
+  flutter_tts: ^0.8.7
+  image_picker: ^0.6.7
+  image: ^2.1.4
+  flutter_spinkit: "^2.1.0"
+  gradient_app_bar: ^0.0.1
+  slider_button: ^0.5.0
+  curved_navigation_bar: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Empon.tflite
+    - assets/Empon.txt
+
+    - assets/images/jahe.jpg
+    - assets/images/kencur.jpg
+    - assets/images/lengkuas.jpg
+    - assets/images/kunyit.jpg
+    - assets/images/logo.png
+    - assets/images/title.png
+    - assets/images/dino_cam_icon.png
+    - images/photo_eraser.png
+    - images/photo_pencil.png
+    - images/photo_ruler.png
+    - images/photo_school.png
+    - images/photo_museum.png
+    - images/photo_coffee_shop.png
+    
+
+fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Bold.ttf
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Bold.ttf
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
